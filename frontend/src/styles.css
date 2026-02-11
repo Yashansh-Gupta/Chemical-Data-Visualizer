@@ -1,0 +1,80 @@
+/* ===== Global Reset ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ===== Page Background ===== */
+body {
+  background-color: #d2f1fe;
+  min-height: 100vh;
+}
+
+/* ===== Centered Layout ===== */
+.page-center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Login Card ===== */
+.login-card {
+  background: #ffffff;
+  width: 360px;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Title ===== */
+.login-title {
+  color: #a795ff;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* ===== Inputs ===== */
+.login-input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  font-size: 14px;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #c1b1e1;
+}
+
+/* ===== Button ===== */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #d45087;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #f95d6a;
+}
+
+/* ===== Error Message ===== */
+.login-error {
+  margin-top: 12px;
+  color: #f95d6a;
+  font-size: 14px;
+  text-align: center;
+}
